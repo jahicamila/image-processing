@@ -2,7 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 
-img = cv2.imread(r"C:\Users\User\Desktop\lampa.jpg")
+path = os.path.join('..', os.getcwd(), 'images', 'lamp.jpg')
+img = cv.imread(path)
 cv2.imshow('Original', img)
 
 # Rotacija
