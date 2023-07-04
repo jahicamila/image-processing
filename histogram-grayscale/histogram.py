@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import cv2
 
 path = os.path.join('..', os.getcwd(), 'images', 'flowers.jpg')
-img = cv.imread(path)
-cv.imshow('Original', img)
+img = cv2.imread(path)
+cv2.imshow('Original', img)
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 cv2.imshow('Grayscale', gray)
