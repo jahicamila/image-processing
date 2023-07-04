@@ -2,11 +2,13 @@
 This repository shows usage of OpenCV Python package for digital image processing.
 
 # Contents
-1. Basic image transformations
-2. Image space filtering
-3. Image filtering in frequency domain
-4. Edge detection
-5. Histogram and thresholding
-6. Image segmentation
-7. Classification and object detection
+1. Image rotations
+2. Image space filtering (Gaussian, median and averaging filter)
+3. Edge detection filters (Sobel, Canny)
+4. Histogram grayscale
+5. Morphological processing (erosion, dilation, opening and closing)
+6. AlexNet convolutional neural network
+7. YOLO convolutional neural network
+   
+   
 
