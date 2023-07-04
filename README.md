@@ -1,7 +1,7 @@
-#Digital image processing in OpenCV using Python
+# Digital image processing in OpenCV using Python
 This repository shows usage of OpenCV Python package for digital image processing.
 
-#Contents
+# Contents
 1. Basic image transformations
 2. Image space filtering
 3. Image filtering in frequency domain
