@@ -2,8 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 
-img = cv2.imread(r"C:\Users\User\Desktop\vjeverica.jpg")
-cv2.imshow('Original', img)
+path = os.path.join('..', os.getcwd(), 'images', 'squirrel.jpg')
+img = cv.imread(path)
+cv.imshow('Original', img)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Sobel
